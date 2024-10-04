@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    background-color: rgb(199, 247, 247);
+}
+
+nav {
+    background-color: rgb(56, 55, 55);
+}
+footer {
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.contact-info {
+    margin-top: 30px;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-info h1,
+.contact-info h2 {
+    color: #343a40;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.contact-info iframe {
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.card-body {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 8px;
+}
+
+.card-body:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.img-fluid {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.container {
+    margin-top: 50px;
+}
